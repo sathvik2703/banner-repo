@@ -27,7 +27,8 @@ const Banner = () => {
     return (
         <div className="banner">
             <p>{bannerData.description}</p>
-            <a href={bannerData.link} target="_blank" rel="noopener noreferrer">Click here</a>
+            <a href={bannerData.link} target="_blank" rel="noopener noreferrer">Click here to reset timer</a>
+            <a href={"/dashboard"}> go to dashboard </a>
             <div className="timer">Time left: {timeLeft}s</div>
         </div>
     );
